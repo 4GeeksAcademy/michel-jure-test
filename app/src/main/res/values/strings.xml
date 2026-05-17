@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Status Checker</string>
+    <string name="refresh">refrescar</string>
+    <string name="loading">consultando...</string>
+    <string name="checking_status">Consultando endpoint...</string>
+    <string name="checking_text_data">Consultando texto del endpoint...</string>
+    <string name="press_refresh">Pulsa \"refrescar\" para consultar.</string>
+    <string name="status_ok">Respuesta 200: disponible.</string>
+    <string name="status_error">Sin respuesta 200: no disponible.</string>
+    <string name="endpoint_text_placeholder">Pulsa \"refrescar\" para cargar los datos de texto.</string>
+    <string name="endpoint_text_empty">El endpoint respondió sin contenido de texto.</string>
+    <string name="endpoint_text_network_error">No se pudieron obtener los datos de texto del endpoint.</string>
+    <string name="endpoint_text_http_error">No se pudo leer el texto (HTTP %1$d).</string>
+    <string name="table_header_date">Fecha</string>
+    <string name="table_header_device">Device</string>
+    <string name="table_header_status">Estado</string>
+    <string name="table_header_ip">IP</string>
+</resources>

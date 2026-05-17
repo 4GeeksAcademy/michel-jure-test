@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:padding="24dp"
+    android:background="@color/screen_bg">
+
+    <TextView
+        android:id="@+id/tvTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Estado del endpoint"
+        android:textColor="@color/text_primary"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="20dp" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginBottom="18dp">
+
+        <androidx.appcompat.widget.AppCompatImageButton
+            android:id="@+id/btnYes"
+            android:layout_width="88dp"
+            android:layout_height="88dp"
+            android:background="@drawable/bg_yes"
+            android:src="@drawable/ic_yes"
+            android:contentDescription="Sí"
+            android:clickable="false"
+            android:focusable="false"
+            android:layout_marginEnd="12dp"
+            android:padding="18dp" />
+
+        <androidx.appcompat.widget.AppCompatImageButton
+            android:id="@+id/btnNo"
+            android:layout_width="88dp"
+            android:layout_height="88dp"
+            android:background="@drawable/bg_no"
+            android:src="@drawable/ic_no"
+            android:contentDescription="No"
+            android:clickable="false"
+            android:focusable="false"
+            android:padding="18dp" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tvStatus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/text_primary"
+        android:textSize="16sp"
+        android:layout_marginBottom="24dp" />
+
+    <Button
+        android:id="@+id/btnRefresh"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:text="refrescar"
+        android:textAllCaps="false"
+        android:backgroundTint="@color/button_bg"
+        android:textColor="@color/button_text" />
+
+    <TextView
+        android:id="@+id/tvEndpointDataTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:layout_marginBottom="8dp"
+        android:text="Datos del endpoint"
+        android:textColor="@color/text_primary"
+        android:textSize="15sp"
+        android:textStyle="bold" />
+
+    <ScrollView
+        android:id="@+id/svEndpointData"
+        android:layout_width="match_parent"
+        android:layout_height="210dp"
+        android:background="@drawable/bg_endpoint_text_box"
+        android:fillViewport="true">
+
+        <HorizontalScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fillViewport="true"
+            android:scrollbars="horizontal">
+
+            <TableLayout
+                android:id="@+id/tblEndpointData"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:stretchColumns="*"
+                android:padding="10dp" />
+        </HorizontalScrollView>
+    </ScrollView>
+
+</LinearLayout>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="screen_bg">#F6F8FA</color>
+    <color name="text_primary">#1B1F24</color>
+    <color name="text_box_bg">#FFFFFF</color>
+    <color name="text_box_border">#D0D7DE</color>
+    <color name="table_header_bg">#0D47A1</color>
+    <color name="table_header_text">#FFFFFF</color>
+    <color name="yes_green">#2E7D32</color>
+    <color name="no_red">#C62828</color>
+    <color name="button_bg">#0D47A1</color>
+    <color name="button_text">#FFFFFF</color>
+</resources>

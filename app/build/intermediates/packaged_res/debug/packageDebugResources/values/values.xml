@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="http://schemas.android.com/tools">
+    <color name="button_bg">#0D47A1</color>
+    <color name="button_text">#FFFFFF</color>
+    <color name="no_red">#C62828</color>
+    <color name="screen_bg">#F6F8FA</color>
+    <color name="table_header_bg">#0D47A1</color>
+    <color name="table_header_text">#FFFFFF</color>
+    <color name="text_box_bg">#FFFFFF</color>
+    <color name="text_box_border">#D0D7DE</color>
+    <color name="text_primary">#1B1F24</color>
+    <color name="yes_green">#2E7D32</color>
+    <string name="app_name">Status Checker</string>
+    <string name="checking_status">Consultando endpoint...</string>
+    <string name="checking_text_data">Consultando texto del endpoint...</string>
+    <string name="endpoint_text_empty">El endpoint respondió sin contenido de texto.</string>
+    <string name="endpoint_text_http_error">No se pudo leer el texto (HTTP %1$d).</string>
+    <string name="endpoint_text_network_error">No se pudieron obtener los datos de texto del endpoint.</string>
+    <string name="endpoint_text_placeholder">Pulsa \"refrescar\" para cargar los datos de texto.</string>
+    <string name="loading">consultando...</string>
+    <string name="press_refresh">Pulsa \"refrescar\" para consultar.</string>
+    <string name="refresh">refrescar</string>
+    <string name="status_error">Sin respuesta 200: no disponible.</string>
+    <string name="status_ok">Respuesta 200: disponible.</string>
+    <string name="table_header_date">Fecha</string>
+    <string name="table_header_device">Device</string>
+    <string name="table_header_ip">IP</string>
+    <string name="table_header_status">Estado</string>
+    <style name="Base.Theme.StatusChecker" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/button_bg</item>
+        <item name="android:statusBarColor" ns1:targetApi="l">@color/button_bg</item>
+    </style>
+    <style name="Theme.StatusChecker" parent="Base.Theme.StatusChecker"/>
+</resources>

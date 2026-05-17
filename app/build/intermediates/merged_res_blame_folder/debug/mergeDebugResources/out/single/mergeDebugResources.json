@@ -1,0 +1,38 @@
+[
+    {
+        "merged": "com.example.statuschecker.app-debug-33:/drawable_ic_no.xml.flat",
+        "source": "com.example.statuschecker.app-main-35:/drawable/ic_no.xml"
+    },
+    {
+        "merged": "com.example.statuschecker.app-debug-33:/drawable_bg_endpoint_text_box.xml.flat",
+        "source": "com.example.statuschecker.app-main-35:/drawable/bg_endpoint_text_box.xml"
+    },
+    {
+        "merged": "com.example.statuschecker.app-debug-33:/drawable_bg_no.xml.flat",
+        "source": "com.example.statuschecker.app-main-35:/drawable/bg_no.xml"
+    },
+    {
+        "merged": "com.example.statuschecker.app-debug-33:/drawable_bg_table_cell.xml.flat",
+        "source": "com.example.statuschecker.app-main-35:/drawable/bg_table_cell.xml"
+    },
+    {
+        "merged": "com.example.statuschecker.app-debug-33:/xml_network_security_config.xml.flat",
+        "source": "com.example.statuschecker.app-main-35:/xml/network_security_config.xml"
+    },
+    {
+        "merged": "com.example.statuschecker.app-debug-33:/drawable_bg_yes.xml.flat",
+        "source": "com.example.statuschecker.app-main-35:/drawable/bg_yes.xml"
+    },
+    {
+        "merged": "com.example.statuschecker.app-debug-33:/drawable_ic_yes.xml.flat",
+        "source": "com.example.statuschecker.app-main-35:/drawable/ic_yes.xml"
+    },
+    {
+        "merged": "com.example.statuschecker.app-debug-33:/layout_activity_main.xml.flat",
+        "source": "com.example.statuschecker.app-main-35:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.example.statuschecker.app-debug-33:/drawable_bg_table_header_cell.xml.flat",
+        "source": "com.example.statuschecker.app-main-35:/drawable/bg_table_header_cell.xml"
+    }
+]
